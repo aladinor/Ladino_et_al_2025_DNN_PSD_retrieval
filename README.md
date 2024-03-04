@@ -2,12 +2,14 @@
 Notebooks that allows to replicate results obtained in Ladino et al. (2024) deep neural network particle size distribution retrieval for liquid particles
 
 ## Running the Notebooks
-You can either run the notebook using [Binder](https://binder.projectpythia.org) or on your local machine.
+You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval.git/main?urlpath=https%3A%2F%2Fgithub.com%2Faladinor%2FLadino_et_al_2024_DNN_PSD_retrieval%2Ftree%2Fmain%2Fnotebooks%2FK-means-psd.ipynb)
 
 ### Running on Binder
 
 The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://binder.projectpythia.org), which enables the execution of a
+[Binder](https://mybinder.org/), which enables the execution of a
 Jupyter Book in the cloud. The details of how this works are not
 important for now. All you need to know is how to launch a Pythia
 Foundations book chapter via Binder. Simply navigate your mouse to
@@ -24,12 +26,12 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 ### Running on Your Own Machine
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-1. Clone the ["radar-cookbook"](https://github.com/ProjectPythia/radar-cookbook) repository
+1. Clone the ["dnn-pds-retrieval"](https://github.com/ProjectPythia/radar-cookbook) repository
     ```bash
     git clone https://github.com/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval.git
     ```
 
-2. Move into the `radar-cookbook` directory
+2. Move into the `dnn-pds-retrieval` directory
     ```bash
     cd Ladino_et_al_2024_DNN_PSD_retrieval
     ```
