@@ -4,7 +4,7 @@ Notebooks that allows to replicate results obtained in Ladino et al. (2024) deep
 ## Running the Notebooks
 You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval.git/main?urlpath=https%3A%2F%2Fgithub.com%2Faladinor%2FLadino_et_al_2024_DNN_PSD_retrieval%2Ftree%2Fmain%2Fnotebooks%2FK-means-psd.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/main)
 
 ### Running on Binder
 
@@ -26,7 +26,7 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 ### Running on Your Own Machine
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-1. Clone the ["dnn-pds-retrieval"](https://github.com/ProjectPythia/radar-cookbook) repository
+1. Clone the ["dnn-pds-retrieval"](https://github.com/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval) repository
     ```bash
     git clone https://github.com/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval.git
     ```
