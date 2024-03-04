@@ -1,22 +1,16 @@
 # Improvement of liquid particle size distribution retrieval from dual-precipitation radar measurement using a deep neural network 
 Notebooks that allows to replicate results obtained in Ladino et al. (2024) deep neural network particle size distribution retrieval for liquid particles
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/main)
+
 ## Running the Notebooks
 You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/main)
 
 ### Running on Binder
 
 The simplest way to interact with a Jupyter Notebook is through
 [Binder](https://mybinder.org/), which enables the execution of a
-Jupyter Book in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Foundations book chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
+Jupyter Book in the cloud. You’ll be able to execute
 and even change the example programs. You’ll see that the code cells
 have no output at first, until you execute them by pressing
 `Shift` `Enter`. Complete details on how to interact with
