@@ -1,6 +1,8 @@
 # Improvement of liquid particle size distribution retrieval from dual-precipitation radar measurement using a deep neural network 
 Notebooks that allows to replicate results obtained in Ladino et al. (2024) deep neural network particle size distribution retrieval for liquid particles
 
+[![DOI](https://zenodo.org/badge/767055605.svg)](https://zenodo.org/doi/10.5281/zenodo.10905712)
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/main)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/blob/main)
 
