@@ -1,5 +1,8 @@
 {
     "_ARRAY_DIMENSIONS": [
         "time"
-    ]
+    ],
+    "description": "Total number concentration derived from in-situ particle size distribution measurements",
+    "long_name": "Total number concentration",
+    "units": "m-3"
 }

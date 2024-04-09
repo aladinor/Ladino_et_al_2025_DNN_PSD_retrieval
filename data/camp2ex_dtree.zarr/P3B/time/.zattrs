@@ -3,5 +3,7 @@
         "time"
     ],
     "calendar": "proleptic_gregorian",
+    "description": "Measurement time for in-situ measurements",
+    "long_name": "Measurement time",
     "units": "seconds since 2019-08-24T22:12:20"
 }
