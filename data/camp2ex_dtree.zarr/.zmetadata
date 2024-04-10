@@ -36,6 +36,37 @@
             "long_name": "Specific attenaution at Ka-band",
             "units": "dB Km-1"
         },
+        "Lear/d_d/.zarray": {
+            "chunks": [
+                15,
+                2152
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                58,
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/d_d/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter",
+                "time"
+            ],
+            "description": "bin diameter width",
+            "long_name": "bin diameter width",
+            "units": "um"
+        },
         "Lear/dbz_t_ka/.zarray": {
             "chunks": [
                 4304
@@ -118,7 +149,7 @@
             ],
             "description": "particle diameter at each bin size",
             "long_name": "particle diameter",
-            "units": "mm"
+            "units": "um"
         },
         "Lear/dm/.zarray": {
             "chunks": [
@@ -576,6 +607,37 @@
             "long_name": "Specific attenaution at Ka-band",
             "units": "dB Km-1"
         },
+        "P3B/d_d/.zarray": {
+            "chunks": [
+                15,
+                2558
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                58,
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/d_d/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter",
+                "time"
+            ],
+            "description": "bin diameter width",
+            "long_name": "bin diameter width",
+            "units": "um"
+        },
         "P3B/dbz_t_ka/.zarray": {
             "chunks": [
                 5115
@@ -658,7 +720,7 @@
             ],
             "description": "particle diameter at each bin size",
             "long_name": "particle diameter",
-            "units": "mm"
+            "units": "um"
         },
         "P3B/dm/.zarray": {
             "chunks": [

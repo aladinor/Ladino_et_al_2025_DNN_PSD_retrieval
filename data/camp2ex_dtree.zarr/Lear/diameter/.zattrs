@@ -4,5 +4,5 @@
     ],
     "description": "particle diameter at each bin size",
     "long_name": "particle diameter",
-    "units": "mm"
+    "units": "um"
 }
