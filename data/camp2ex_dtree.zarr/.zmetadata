@@ -36,6 +36,34 @@
             "long_name": "Specific attenaution at Ka-band",
             "units": "dB Km-1"
         },
+        "Lear/altitude/.zarray": {
+            "chunks": [
+                4307
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/altitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Altitude at which plane was flying during the cloud penetration",
+            "long_name": "plane altitude",
+            "units": "m"
+        },
         "Lear/d_d/.zarray": {
             "chunks": [
                 15,
@@ -520,7 +548,7 @@
         },
         "Lear/time/.zarray": {
             "chunks": [
-                4036
+                4304
             ],
             "compressor": {
                 "blocksize": 0,
@@ -543,8 +571,6 @@
                 "time"
             ],
             "calendar": "proleptic_gregorian",
-            "description": "Measurement time for in-situ measurements",
-            "long_name": "Measurement time",
             "units": "seconds since 2019-09-07T00:50:13"
         },
         "Lear/vert_vel/.zarray": {
@@ -606,6 +632,34 @@
             "description": "Specific attenaution at Ka-band values derived from in-situ particle size distribution measurements",
             "long_name": "Specific attenaution at Ka-band",
             "units": "dB Km-1"
+        },
+        "P3B/altitude/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/altitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Altitude at which plane was flying during the cloud penetration",
+            "long_name": "plane altitude",
+            "units": "m"
         },
         "P3B/d_d/.zarray": {
             "chunks": [
@@ -1091,7 +1145,7 @@
         },
         "P3B/time/.zarray": {
             "chunks": [
-                4697
+                5115
             ],
             "compressor": {
                 "blocksize": 0,
@@ -1114,8 +1168,6 @@
                 "time"
             ],
             "calendar": "proleptic_gregorian",
-            "description": "Measurement time for in-situ measurements",
-            "long_name": "Measurement time",
             "units": "seconds since 2019-08-24T22:12:20"
         },
         "P3B/vert_vel/.zarray": {
