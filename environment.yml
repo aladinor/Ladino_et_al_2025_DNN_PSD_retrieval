@@ -23,7 +23,6 @@ dependencies:
   - ipywidgets
   - seaborn
   - xhistogram
-  - imbalanced-learn
   - pip
   - pip:
       - scikit-learn==1.4
