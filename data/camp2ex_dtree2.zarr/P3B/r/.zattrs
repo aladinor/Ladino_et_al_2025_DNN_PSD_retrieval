@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "rainfall rate derived from in-situ particle size distribution measurements",
-    "long_name": "rainfall rate",
-    "units": "mmhr-1"
-}

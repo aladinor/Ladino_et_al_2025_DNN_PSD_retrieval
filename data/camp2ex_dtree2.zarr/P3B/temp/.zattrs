@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "Ambient temperature in degrees from in-situ measurements",
-    "long_name": "Ambient temperature",
-    "units": "\u00b0C"
-}
