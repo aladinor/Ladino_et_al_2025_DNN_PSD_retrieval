@@ -174,10 +174,7 @@
         "Lear/diameter/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "diameter"
-            ],
-            "description": "particle diameter at each bin size",
-            "long_name": "particle diameter",
-            "units": "um"
+            ]
         },
         "Lear/dm/.zarray": {
             "chunks": [
@@ -405,6 +402,37 @@
             "description": "Total number concentration derived from in-situ particle size distribution measurements",
             "long_name": "Total number concentration",
             "units": "m-3"
+        },
+        "Lear/psd/.zarray": {
+            "chunks": [
+                1076,
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307,
+                58
+            ],
+            "zarr_format": 2
+        },
+        "Lear/psd/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ],
+            "description": "particle size distribution at each bin",
+            "long_name": "Particle size distribution",
+            "units": "# L-1"
         },
         "Lear/r/.zarray": {
             "chunks": [
@@ -771,10 +799,7 @@
         "P3B/diameter/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "diameter"
-            ],
-            "description": "particle diameter at each bin size",
-            "long_name": "particle diameter",
-            "units": "um"
+            ]
         },
         "P3B/dm/.zarray": {
             "chunks": [
@@ -1002,6 +1027,34 @@
             "description": "Total number concentration derived from in-situ particle size distribution measurements",
             "long_name": "Total number concentration",
             "units": "m-3"
+        },
+        "P3B/psd/.zarray": {
+            "chunks": [
+                1279,
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146,
+                58
+            ],
+            "zarr_format": 2
+        },
+        "P3B/psd/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ]
         },
         "P3B/r/.zarray": {
             "chunks": [
