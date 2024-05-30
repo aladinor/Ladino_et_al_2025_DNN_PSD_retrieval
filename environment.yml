@@ -22,11 +22,11 @@ dependencies:
   - xlrd
   - ipywidgets
   - seaborn
-  - scikit-learn
   - xhistogram
-  - imbalanced-learn
   - pip
   - pip:
+      - scikit-learn==1.4
+      - imbalanced-learn
       - tensorflow
       - sphinx-pythia-theme
       - pydata-sphinx-theme
