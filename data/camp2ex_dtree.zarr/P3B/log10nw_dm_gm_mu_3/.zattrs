@@ -1,5 +1,8 @@
 {
     "_ARRAY_DIMENSIONS": [
         "time"
-    ]
+    ],
+    "description": "Normalized intercept parameter derived using GPM-Analytical retrieval (mu=3)",
+    "long_name": "Normalized intercept parameter",
+    "units": "log_10(mm-1 mm-3))"
 }

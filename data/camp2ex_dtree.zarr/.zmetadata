@@ -31,82 +31,10 @@
         "Lear/Att_ka/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/Att_ku/.zarray": {
-            "chunks": [
-                4304
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/Att_ku/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/Att_w/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/Att_w/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/RH/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/RH/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Specific attenaution at Ka-band values derived from in-situ particle size distribution measurements",
+            "long_name": "Specific attenaution at Ka-band",
+            "units": "dB Km-1"
         },
         "Lear/altitude/.zarray": {
             "chunks": [
@@ -131,343 +59,10 @@
         "Lear/altitude/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/att_ka_mu1/.zarray": {
-            "chunks": [
-                1076,
-                29
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ka_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ka_mu2/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ka_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ka_mu3/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ka_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ka_mu_bf/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ka_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ku_mu1/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ku_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ku_mu2/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ku_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ku_mu3/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ku_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_ku_mu_bf/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_ku_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_w_mu1/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_w_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_w_mu2/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_w_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_w_mu3/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_w_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/att_w_mu_bf/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/att_w_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
+            "description": "Altitude at which plane was flying during the cloud penetration",
+            "long_name": "plane altitude",
+            "units": "m"
         },
         "Lear/d_d/.zarray": {
             "chunks": [
@@ -495,7 +90,10 @@
             "_ARRAY_DIMENSIONS": [
                 "diameter",
                 "time"
-            ]
+            ],
+            "description": "bin diameter width",
+            "long_name": "bin diameter width",
+            "units": "um"
         },
         "Lear/dbz_t_ka/.zarray": {
             "chunks": [
@@ -520,7 +118,10 @@
         "Lear/dbz_t_ka/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
+            ],
+            "description": "radar reflectivity at Ka-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
         },
         "Lear/dbz_t_ku/.zarray": {
             "chunks": [
@@ -545,219 +146,10 @@
         "Lear/dbz_t_ku/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/dbz_t_w/.zarray": {
-            "chunks": [
-                4304
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dbz_t_w/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dew_point/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dew_point/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dfr/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dfr/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dfr_gm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dfr_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dfr_mu1/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dfr_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/dfr_mu2/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dfr_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/dfr_mu3/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dfr_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/dfr_mu_bf/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dfr_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
+            "description": "radar reflectivity at Ku-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
         },
         "Lear/diameter/.zarray": {
             "chunks": [
@@ -807,57 +199,10 @@
         "Lear/dm/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/dm_camp/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dm_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dm_rt_dfr_gm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dm_rt_dfr_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Mass-weighted mean diameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
         },
         "Lear/dm_rt_dfr_gm_mu_3/.zarray": {
             "chunks": [
@@ -882,132 +227,10 @@
         "Lear/dm_rt_dfr_gm_mu_3/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/dm_rt_dfr_nd/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dm_rt_dfr_nd/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dm_rt_dfr_nd_mu_3/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dm_rt_dfr_nd_mu_3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dm_true/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dm_true/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/dm_williams/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/dm_williams/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/lat/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/lat/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Mass-weighted mean diameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
         },
         "Lear/log10_nw/.zarray": {
             "chunks": [
@@ -1032,57 +255,10 @@
         "Lear/log10_nw/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/log10nw_camp/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/log10nw_dm_gm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_dm_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Normalized intercept parameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
         },
         "Lear/log10nw_dm_gm_mu_3/.zarray": {
             "chunks": [
@@ -1107,157 +283,10 @@
         "Lear/log10nw_dm_gm_mu_3/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/log10nw_dm_nd/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_dm_nd/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/log10nw_dm_nd_mu_3/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_dm_nd_mu_3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/log10nw_true/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_true/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/log10nw_true_mu_dm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_true_mu_dm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/log10nw_will/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/log10nw_will/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/lon/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/lon/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Normalized intercept parameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
         },
         "Lear/lwc/.zarray": {
             "chunks": [
@@ -1285,7 +314,10 @@
             "_ARRAY_DIMENSIONS": [
                 "time",
                 "diameter"
-            ]
+            ],
+            "description": "liquid water content at each bin size derived from in-situ particle size distribution measurements",
+            "long_name": "liquid water content",
+            "units": "gm-3"
         },
         "Lear/lwc_cum/.zarray": {
             "chunks": [
@@ -1310,32 +342,10 @@
         "Lear/lwc_cum/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/lwc_plane/.zarray": {
-            "chunks": [
-                4304
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/lwc_plane/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "total liquid water content derived from in-situ particle size distribution measurements",
+            "long_name": "total liquid water content",
+            "units": "gm-3"
         },
         "Lear/mu/.zarray": {
             "chunks": [
@@ -1360,182 +370,10 @@
         "Lear/mu/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/mu3/.zarray": {
-            "chunks": [
-                4304
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/mu_bf/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/mu_camp/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/mu_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/mu_camp2ex/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/mu_camp2ex/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/mu_williams/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/mu_williams/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/new_mu/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/new_mu/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/new_sigma/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/new_sigma/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "shape parameter of the Normalized-Gamma size distribution derived from in-situ particle size distribution measurements",
+            "long_name": "shape parameter",
+            "units": "unitless"
         },
         "Lear/nt/.zarray": {
             "chunks": [
@@ -1560,32 +398,10 @@
         "Lear/nt/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/nw/.zarray": {
-            "chunks": [
-                4304
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/nw/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Total number concentration derived from in-situ particle size distribution measurements",
+            "long_name": "Total number concentration",
+            "units": "m-3"
         },
         "Lear/psd/.zarray": {
             "chunks": [
@@ -1613,7 +429,10 @@
             "_ARRAY_DIMENSIONS": [
                 "time",
                 "diameter"
-            ]
+            ],
+            "description": "particle size distribution at each bin",
+            "long_name": "Particle size distribution",
+            "units": "# L-1"
         },
         "Lear/r/.zarray": {
             "chunks": [
@@ -1638,57 +457,10 @@
         "Lear/r/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/r_camp/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/r_dm_gm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_dm_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "rainfall rate derived from in-situ particle size distribution measurements",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
         },
         "Lear/r_dm_gm_mu_3/.zarray": {
             "chunks": [
@@ -1713,57 +485,10 @@
         "Lear/r_dm_gm_mu_3/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/r_dm_nd/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_dm_nd/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/r_gpm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_gpm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "rainfall rates retrieved using GPM-Analytical retrieval (mu=3)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
         },
         "Lear/r_gpm_operational/.zarray": {
             "chunks": [
@@ -1788,166 +513,10 @@
         "Lear/r_gpm_operational/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/r_true/.zarray": {
-            "chunks": [
-                4036
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_true/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/r_true_nw_mu_dm/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_true_nw_mu_dm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/r_will/.zarray": {
-            "chunks": [
-                4036
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/r_will/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/refl_ka/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/refl_ka/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/refl_ku/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/refl_ku/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/refl_w/.zarray": {
-            "chunks": [
-                1076,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/refl_w/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
+            "description": "rainfall rates retrieved using GPM-Operational retrieval (R-D relationships)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
         },
         "Lear/sigma/.zarray": {
             "chunks": [
@@ -1972,57 +541,10 @@
         "Lear/sigma/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/sigmap/.zarray": {
-            "chunks": [
-                4304
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/sigmap/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/sigmasqr/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/sigmasqr/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Mass spectrum standard deviation derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass spectrum standard deviation",
+            "units": "Unitless"
         },
         "Lear/temp/.zarray": {
             "chunks": [
@@ -2047,11 +569,14 @@
         "Lear/temp/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
+            ],
+            "description": "Ambient temperature in degrees from in-situ measurements",
+            "long_name": "Ambient temperature",
+            "units": "\u00b0C"
         },
         "Lear/time/.zarray": {
             "chunks": [
-                4036
+                4304
             ],
             "compressor": {
                 "blocksize": 0,
@@ -2099,335 +624,10 @@
         "Lear/vert_vel/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "Lear/z/.zarray": {
-            "chunks": [
-                1076,
-                29
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "Lear/z_ka_mu1/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ka_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ka_mu2/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ka_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ka_mu3/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ka_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ka_mu_bf/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ka_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ku_mu1/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ku_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ku_mu2/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ku_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ku_mu3/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ku_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_ku_mu_bf/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_ku_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_w_mu1/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_w_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_w_mu2/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_w_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_w_mu3/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_w_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/z_w_mu_bf/.zarray": {
-            "chunks": [
-                4304
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                4307
-            ],
-            "zarr_format": 2
-        },
-        "Lear/z_w_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "vertical velocity from in-situ measurements",
+            "long_name": "vertical velocity",
+            "units": "ms-1"
         },
         "P3B/.zattrs": {},
         "P3B/.zgroup": {
@@ -2456,82 +656,10 @@
         "P3B/Att_ka/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/Att_ku/.zarray": {
-            "chunks": [
-                5115
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/Att_ku/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/Att_w/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/Att_w/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/RH/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/RH/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Specific attenaution at Ka-band values derived from in-situ particle size distribution measurements",
+            "long_name": "Specific attenaution at Ka-band",
+            "units": "dB Km-1"
         },
         "P3B/altitude/.zarray": {
             "chunks": [
@@ -2556,343 +684,10 @@
         "P3B/altitude/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/att_ka_mu1/.zarray": {
-            "chunks": [
-                1279,
-                29
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ka_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ka_mu2/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ka_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ka_mu3/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ka_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ka_mu_bf/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ka_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ku_mu1/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ku_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ku_mu2/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ku_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ku_mu3/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ku_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_ku_mu_bf/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_ku_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_w_mu1/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_w_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_w_mu2/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_w_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_w_mu3/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_w_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/att_w_mu_bf/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/att_w_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
+            "description": "Altitude at which plane was flying during the cloud penetration",
+            "long_name": "plane altitude",
+            "units": "m"
         },
         "P3B/d_d/.zarray": {
             "chunks": [
@@ -2920,7 +715,10 @@
             "_ARRAY_DIMENSIONS": [
                 "diameter",
                 "time"
-            ]
+            ],
+            "description": "bin diameter width",
+            "long_name": "bin diameter width",
+            "units": "um"
         },
         "P3B/dbz_t_ka/.zarray": {
             "chunks": [
@@ -2945,7 +743,10 @@
         "P3B/dbz_t_ka/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
+            ],
+            "description": "radar reflectivity at Ka-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
         },
         "P3B/dbz_t_ku/.zarray": {
             "chunks": [
@@ -2970,219 +771,10 @@
         "P3B/dbz_t_ku/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/dbz_t_w/.zarray": {
-            "chunks": [
-                5115
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dbz_t_w/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dew_point/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dew_point/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dfr/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dfr/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dfr_gm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dfr_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dfr_mu1/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dfr_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/dfr_mu2/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dfr_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/dfr_mu3/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dfr_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/dfr_mu_bf/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dfr_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
+            "description": "radar reflectivity at Ku-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
         },
         "P3B/diameter/.zarray": {
             "chunks": [
@@ -3232,57 +824,10 @@
         "P3B/dm/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/dm_camp/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dm_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dm_rt_dfr_gm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dm_rt_dfr_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Mass-weighted mean diameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
         },
         "P3B/dm_rt_dfr_gm_mu_3/.zarray": {
             "chunks": [
@@ -3307,132 +852,10 @@
         "P3B/dm_rt_dfr_gm_mu_3/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/dm_rt_dfr_nd/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dm_rt_dfr_nd/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dm_rt_dfr_nd_mu_3/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dm_rt_dfr_nd_mu_3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dm_true/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dm_true/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/dm_williams/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/dm_williams/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/lat/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/lat/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Mass-weighted mean diameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
         },
         "P3B/log10_nw/.zarray": {
             "chunks": [
@@ -3457,57 +880,10 @@
         "P3B/log10_nw/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/log10nw_camp/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/log10nw_dm_gm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_dm_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Normalized intercept parameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
         },
         "P3B/log10nw_dm_gm_mu_3/.zarray": {
             "chunks": [
@@ -3532,157 +908,10 @@
         "P3B/log10nw_dm_gm_mu_3/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/log10nw_dm_nd/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_dm_nd/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/log10nw_dm_nd_mu_3/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_dm_nd_mu_3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/log10nw_true/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_true/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/log10nw_true_mu_dm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_true_mu_dm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/log10nw_will/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/log10nw_will/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/lon/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/lon/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Normalized intercept parameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
         },
         "P3B/lwc/.zarray": {
             "chunks": [
@@ -3710,7 +939,10 @@
             "_ARRAY_DIMENSIONS": [
                 "time",
                 "diameter"
-            ]
+            ],
+            "description": "liquid water content at each bin size derived from in-situ particle size distribution measurements",
+            "long_name": "liquid water content",
+            "units": "gm-3"
         },
         "P3B/lwc_cum/.zarray": {
             "chunks": [
@@ -3735,32 +967,10 @@
         "P3B/lwc_cum/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/lwc_plane/.zarray": {
-            "chunks": [
-                5115
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/lwc_plane/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "total liquid water content derived from in-situ particle size distribution measurements",
+            "long_name": "total liquid water content",
+            "units": "gm-3"
         },
         "P3B/mu/.zarray": {
             "chunks": [
@@ -3785,182 +995,10 @@
         "P3B/mu/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/mu3/.zarray": {
-            "chunks": [
-                5115
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/mu_bf/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/mu_camp/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/mu_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/mu_camp2ex/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/mu_camp2ex/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/mu_williams/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/mu_williams/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/new_mu/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/new_mu/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/new_sigma/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/new_sigma/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "shape parameter of the Normalized-Gamma size distribution derived from in-situ particle size distribution measurements",
+            "long_name": "shape parameter",
+            "units": "unitless"
         },
         "P3B/nt/.zarray": {
             "chunks": [
@@ -3985,32 +1023,10 @@
         "P3B/nt/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/nw/.zarray": {
-            "chunks": [
-                5115
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/nw/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Total number concentration derived from in-situ particle size distribution measurements",
+            "long_name": "Total number concentration",
+            "units": "m-3"
         },
         "P3B/psd/.zarray": {
             "chunks": [
@@ -4063,57 +1079,10 @@
         "P3B/r/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/r_camp/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_camp/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/r_dm_gm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_dm_gm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "rainfall rate derived from in-situ particle size distribution measurements",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
         },
         "P3B/r_dm_gm_mu_3/.zarray": {
             "chunks": [
@@ -4138,57 +1107,10 @@
         "P3B/r_dm_gm_mu_3/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/r_dm_nd/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_dm_nd/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/r_gpm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_gpm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "rainfall rates retrieved using GPM-Analytical retrieval (mu=3)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
         },
         "P3B/r_gpm_operational/.zarray": {
             "chunks": [
@@ -4213,166 +1135,10 @@
         "P3B/r_gpm_operational/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/r_true/.zarray": {
-            "chunks": [
-                4697
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_true/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/r_true_nw_mu_dm/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_true_nw_mu_dm/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/r_will/.zarray": {
-            "chunks": [
-                4697
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/r_will/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/refl_ka/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/refl_ka/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/refl_ku/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/refl_ku/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/refl_w/.zarray": {
-            "chunks": [
-                1279,
-                29
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/refl_w/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
+            "description": "rainfall rates retrieved using GPM-Operational retrieval (R-D relationships)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
         },
         "P3B/sigma/.zarray": {
             "chunks": [
@@ -4397,57 +1163,10 @@
         "P3B/sigma/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/sigmap/.zarray": {
-            "chunks": [
-                5115
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/sigmap/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/sigmasqr/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/sigmasqr/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "Mass spectrum standard deviation derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass spectrum standard deviation",
+            "units": "Unitless"
         },
         "P3B/temp/.zarray": {
             "chunks": [
@@ -4472,11 +1191,14 @@
         "P3B/temp/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
+            ],
+            "description": "Ambient temperature in degrees from in-situ measurements",
+            "long_name": "Ambient temperature",
+            "units": "\u00b0C"
         },
         "P3B/time/.zarray": {
             "chunks": [
-                4697
+                5115
             ],
             "compressor": {
                 "blocksize": 0,
@@ -4524,335 +1246,10 @@
         "P3B/vert_vel/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "time"
-            ]
-        },
-        "P3B/z/.zarray": {
-            "chunks": [
-                1279,
-                29
             ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146,
-                58
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time",
-                "diameter"
-            ]
-        },
-        "P3B/z_ka_mu1/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ka_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ka_mu2/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ka_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ka_mu3/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ka_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ka_mu_bf/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ka_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ku_mu1/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ku_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ku_mu2/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ku_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ku_mu3/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ku_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_ku_mu_bf/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_ku_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_w_mu1/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_w_mu1/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_w_mu2/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_w_mu2/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_w_mu3/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_w_mu3/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "P3B/z_w_mu_bf/.zarray": {
-            "chunks": [
-                5115
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                5146
-            ],
-            "zarr_format": 2
-        },
-        "P3B/z_w_mu_bf/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
+            "description": "vertical velocity from in-situ measurements",
+            "long_name": "vertical velocity",
+            "units": "ms-1"
         }
     },
     "zarr_consolidated_format": 1

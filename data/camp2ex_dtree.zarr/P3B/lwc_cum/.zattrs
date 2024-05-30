@@ -1,5 +1,8 @@
 {
     "_ARRAY_DIMENSIONS": [
         "time"
-    ]
+    ],
+    "description": "total liquid water content derived from in-situ particle size distribution measurements",
+    "long_name": "total liquid water content",
+    "units": "gm-3"
 }

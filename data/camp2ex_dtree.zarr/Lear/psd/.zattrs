@@ -2,5 +2,8 @@
     "_ARRAY_DIMENSIONS": [
         "time",
         "diameter"
-    ]
+    ],
+    "description": "particle size distribution at each bin",
+    "long_name": "Particle size distribution",
+    "units": "# L-1"
 }
