@@ -3,16 +3,13 @@ channels:
   - conda-forge
   - pyviz
 dependencies:
-  - python>=3.9
   - jupyter-book
   - jupyterlab
   - jupyter_server
   - h5netcdf
   - h5py
   - netCDF4
-  - xarray
   - cf_xarray
-  - xarray-datatree>=0.0.10
   - xarrayutils
   - zarr
   - pandas
@@ -25,8 +22,12 @@ dependencies:
   - scikit-learn
   - xhistogram
   - imbalanced-learn
+  - s3fs
+  - hvplot
+  - opencv
   - pip
   - pip:
       - tensorflow
       - sphinx-pythia-theme
       - pydata-sphinx-theme
+      - git+https://github.com/pydata/xarray.git
