@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "Specific attenaution at Ka-band values derived from in-situ particle size distribution measurements",
-    "long_name": "Specific attenaution at Ka-band",
-    "units": "dB Km-1"
-}

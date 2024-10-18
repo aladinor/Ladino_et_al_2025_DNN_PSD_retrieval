@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "Normalized intercept parameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
-    "long_name": "Normalized intercept parameter",
-    "units": "log_10(mm-1 mm-3))"
-}
