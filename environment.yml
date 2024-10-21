@@ -19,7 +19,6 @@ dependencies:
   - xlrd
   - ipywidgets
   - seaborn
-  - scikit-learn
   - xhistogram
   - imbalanced-learn
   - s3fs
@@ -27,6 +26,8 @@ dependencies:
   - opencv
   - pip
   - pip:
+      - scikit-learn==1.4
+      - imbalanced-learn
       - tensorflow
       - sphinx-pythia-theme
       - pydata-sphinx-theme
