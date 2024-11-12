@@ -24,6 +24,7 @@ dependencies:
   - s3fs
   - hvplot
   - opencv
+  - metpy
   - pip
   - pip:
       - scikit-learn==1.4

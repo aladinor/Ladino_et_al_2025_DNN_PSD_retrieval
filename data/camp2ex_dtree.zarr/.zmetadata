@@ -886,6 +886,31 @@
                 "diameter"
             ]
         },
+        "Lear/HVPS/alt/.zarray": {
+            "chunks": [
+                35680
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/alt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
         "Lear/HVPS/cnt_bin/.zarray": {
             "chunks": [
                 17017,
@@ -1224,7 +1249,7 @@
         },
         "Lear/HVPS/time/.zarray": {
             "chunks": [
-                34033
+                35681
             ],
             "compressor": {
                 "blocksize": 0,
@@ -1247,7 +1272,7 @@
                 "time"
             ],
             "calendar": "proleptic_gregorian",
-            "units": "seconds since 2019-09-07T00:29:45"
+            "units": "seconds since 2019-09-07T00:26:55"
         },
         "Lear/HVPS/totaln/.zarray": {
             "chunks": [
