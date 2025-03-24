@@ -34,7 +34,7 @@ def setup_colab():
             "xarrayutils", "zarr", "pandas", "dask", "matplotlib",
             "scipy", "xlrd", "ipywidgets", "seaborn", "xhistogram",
             "imbalanced-learn", "s3fs", "hvplot", "opencv-python", "metpy",
-            "scikit-learn==1.4", "tensorflow", "sphinx-pythia-theme", "pydata-sphinx-theme",
+            "scikit-learn==1.4", "scikit-posthocs", "tensorflow", "sphinx-pythia-theme", "pydata-sphinx-theme",
             "git+https://github.com/pydata/xarray.git"
         ], check=True)
         print("✅ Package installation complete.\n")
