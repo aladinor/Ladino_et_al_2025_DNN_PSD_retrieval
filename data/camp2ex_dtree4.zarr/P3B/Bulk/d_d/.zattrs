@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "diameter",
+        "time"
+    ],
+    "description": "bin diameter width",
+    "long_name": "bin diameter width",
+    "units": "um"
+}

@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "description": "radar reflectivity at Ka-Band derived from in-situ particle size distribution measurements",
+    "long_name": "radar reflectivity at Ku-Band",
+    "units": "dBZ"
+}

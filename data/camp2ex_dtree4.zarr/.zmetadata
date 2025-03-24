@@ -1,0 +1,1955 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "Lear/.zattrs": {},
+        "Lear/.zgroup": {
+            "zarr_format": 2
+        },
+        "Lear/Bulk/.zattrs": {},
+        "Lear/Bulk/.zgroup": {
+            "zarr_format": 2
+        },
+        "Lear/Bulk/Att_ka/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/Att_ka/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Specific attenaution at Ka-band values derived from in-situ particle size distribution measurements",
+            "long_name": "Specific attenaution at Ka-band",
+            "units": "dB Km-1"
+        },
+        "Lear/Bulk/altitude/.zarray": {
+            "chunks": [
+                4307
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/altitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Altitude at which plane was flying during the cloud penetration",
+            "long_name": "plane altitude",
+            "units": "m"
+        },
+        "Lear/Bulk/d_d/.zarray": {
+            "chunks": [
+                15,
+                2152
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                58,
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/d_d/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter",
+                "time"
+            ],
+            "description": "bin diameter width",
+            "long_name": "bin diameter width",
+            "units": "um"
+        },
+        "Lear/Bulk/dbz_t_ka/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/dbz_t_ka/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "radar reflectivity at Ka-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
+        },
+        "Lear/Bulk/dbz_t_ku/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/dbz_t_ku/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "radar reflectivity at Ku-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
+        },
+        "Lear/Bulk/diameter/.zarray": {
+            "chunks": [
+                58
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                58
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/diameter/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter"
+            ]
+        },
+        "Lear/Bulk/dm/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/dm/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Mass-weighted mean diameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
+        },
+        "Lear/Bulk/dm_rt_dfr_gm_mu_3/.zarray": {
+            "chunks": [
+                4036
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/dm_rt_dfr_gm_mu_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Mass-weighted mean diameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
+        },
+        "Lear/Bulk/log10_nw/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/log10_nw/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Normalized intercept parameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
+        },
+        "Lear/Bulk/log10nw_dm_gm_mu_3/.zarray": {
+            "chunks": [
+                4036
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/log10nw_dm_gm_mu_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Normalized intercept parameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
+        },
+        "Lear/Bulk/lwc/.zarray": {
+            "chunks": [
+                1076,
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307,
+                58
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/lwc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ],
+            "description": "liquid water content at each bin size derived from in-situ particle size distribution measurements",
+            "long_name": "liquid water content",
+            "units": "gm-3"
+        },
+        "Lear/Bulk/lwc_cum/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/lwc_cum/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "total liquid water content derived from in-situ particle size distribution measurements",
+            "long_name": "total liquid water content",
+            "units": "gm-3"
+        },
+        "Lear/Bulk/mu/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/mu/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "shape parameter of the Normalized-Gamma size distribution derived from in-situ particle size distribution measurements",
+            "long_name": "shape parameter",
+            "units": "unitless"
+        },
+        "Lear/Bulk/nt/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/nt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Total number concentration derived from in-situ particle size distribution measurements",
+            "long_name": "Total number concentration",
+            "units": "m-3"
+        },
+        "Lear/Bulk/psd/.zarray": {
+            "chunks": [
+                1076,
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307,
+                58
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/psd/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ],
+            "description": "particle size distribution at each bin",
+            "long_name": "Particle size distribution",
+            "units": "# L-1"
+        },
+        "Lear/Bulk/r/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/r/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "rainfall rate derived from in-situ particle size distribution measurements",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
+        },
+        "Lear/Bulk/r_dm_gm_mu_3/.zarray": {
+            "chunks": [
+                4036
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/r_dm_gm_mu_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "rainfall rates retrieved using GPM-Analytical retrieval (mu=3)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
+        },
+        "Lear/Bulk/r_gpm_operational/.zarray": {
+            "chunks": [
+                4036
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/r_gpm_operational/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "rainfall rates retrieved using GPM-Operational retrieval (R-D relationships)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
+        },
+        "Lear/Bulk/sigma/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/sigma/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Mass spectrum standard deviation derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass spectrum standard deviation",
+            "units": "Unitless"
+        },
+        "Lear/Bulk/temp/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/temp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Ambient temperature in degrees from in-situ measurements",
+            "long_name": "Ambient temperature",
+            "units": "\u00b0C"
+        },
+        "Lear/Bulk/time/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "seconds since 2019-09-07T00:50:13"
+        },
+        "Lear/Bulk/vert_vel/.zarray": {
+            "chunks": [
+                4304
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4307
+            ],
+            "zarr_format": 2
+        },
+        "Lear/Bulk/vert_vel/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "vertical velocity from in-situ measurements",
+            "long_name": "vertical velocity",
+            "units": "ms-1"
+        },
+        "Lear/HVPS/.zattrs": {
+            "aircraft": "Learjet",
+            "bin_cent": [
+                150.0,
+                300.0,
+                450.0,
+                600.0,
+                750.0,
+                900.0,
+                1050.0,
+                1200.0,
+                1350.0,
+                1500.0,
+                1650.0,
+                1799.5,
+                1949.5,
+                2099.5,
+                2249.5,
+                2399.5,
+                2549.5,
+                2699.5,
+                2849.5,
+                2999.5,
+                3224.5,
+                3524.5,
+                3824.5,
+                4124.5,
+                4424.5,
+                4724.5,
+                5024.5,
+                5324.5,
+                5624.5,
+                5924.5,
+                6224.5,
+                6524.5,
+                6824.5,
+                7124.5,
+                7424.5,
+                7949.5,
+                8699.5,
+                9449.5,
+                10199.5,
+                10949.5,
+                11699.0,
+                12448.5,
+                13198.5,
+                13949.0,
+                14699.5,
+                15824.5,
+                17319.5,
+                18819.0,
+                20319.5,
+                21819.5,
+                23319.0,
+                24819.0,
+                26319.0,
+                27819.0,
+                29319.5,
+                31570.0,
+                34569.5,
+                37569.5,
+                40570.0,
+                43569.5,
+                46558.5
+            ],
+            "dsizes": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                149.0,
+                149.0,
+                149.0,
+                149.0,
+                149.0,
+                149.0,
+                149.0,
+                149.0,
+                149.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                299.0,
+                749.0,
+                749.0,
+                749.0,
+                749.0,
+                749.0,
+                748.0,
+                749.0,
+                749.0,
+                750.0,
+                749.0,
+                1499.0,
+                1489.0,
+                1490.0,
+                1491.0,
+                1489.0,
+                1490.0,
+                1490.0,
+                1490.0,
+                1490.0,
+                1491.0,
+                2990.0,
+                2989.0,
+                2989.0,
+                2990.0,
+                2989.0,
+                2989.0
+            ],
+            "instrument": "HVPS",
+            "psd_units": [
+                " #/liter/um"
+            ],
+            "sizes": [
+                75.0,
+                225.0,
+                375.0,
+                525.0,
+                675.0,
+                825.0,
+                975.0,
+                1125.0,
+                1275.0,
+                1425.0,
+                1575.0,
+                1725.0,
+                1875.0,
+                2025.0,
+                2175.0,
+                2325.0,
+                2475.0,
+                2625.0,
+                2775.0,
+                2925.0,
+                3075.0,
+                3375.0,
+                3675.0,
+                3975.0,
+                4275.0,
+                4575.0,
+                4875.0,
+                5175.0,
+                5475.0,
+                5775.0,
+                6075.0,
+                6375.0,
+                6675.0,
+                6975.0,
+                7275.0,
+                7575.0,
+                8325.0,
+                9075.0,
+                9825.0,
+                10575.0,
+                11325.0,
+                12074.0,
+                12824.0,
+                13574.0,
+                14325.0,
+                15075.0,
+                16575.0,
+                18074.0,
+                19574.0,
+                21075.0,
+                22574.0,
+                24074.0,
+                25574.0,
+                27074.0,
+                28574.0,
+                30075.0,
+                33075.0,
+                36075.0,
+                39075.0,
+                42075.0,
+                45064.0
+            ],
+            "type": "HVPS"
+        },
+        "Lear/HVPS/.zgroup": {
+            "zarr_format": 2
+        },
+        "Lear/HVPS/Temp/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/Temp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/a_bin/.zarray": {
+            "chunks": [
+                17017,
+                8
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130,
+                61
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/a_bin/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ]
+        },
+        "Lear/HVPS/alt/.zarray": {
+            "chunks": [
+                35680
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/alt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/cnt_bin/.zarray": {
+            "chunks": [
+                17017,
+                8
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130,
+                61
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/cnt_bin/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ]
+        },
+        "Lear/HVPS/conc/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/conc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/d_d/.zarray": {
+            "chunks": [
+                61
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                61
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/d_d/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter"
+            ]
+        },
+        "Lear/HVPS/diameter/.zarray": {
+            "chunks": [
+                61
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                61
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/diameter/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter"
+            ]
+        },
+        "Lear/HVPS/effectiveDiam/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/effectiveDiam/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/ext/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/ext/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/irregularCNT/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/irregularCNT/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/local_time/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/local_time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "seconds since 2019-09-07 00:29:45"
+        },
+        "Lear/HVPS/m_bin/.zarray": {
+            "chunks": [
+                17017,
+                8
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130,
+                61
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/m_bin/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ]
+        },
+        "Lear/HVPS/meanDiameter/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/meanDiameter/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/meanVolDiam/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/meanVolDiam/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/psd/.zarray": {
+            "chunks": [
+                17017,
+                8
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130,
+                61
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/psd/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ]
+        },
+        "Lear/HVPS/sv/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/sv/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/time/.zarray": {
+            "chunks": [
+                35681
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "seconds since 2019-09-07T00:26:55"
+        },
+        "Lear/HVPS/totaln/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/totaln/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "Lear/HVPS/twc/.zarray": {
+            "chunks": [
+                34033
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                136130
+            ],
+            "zarr_format": 2
+        },
+        "Lear/HVPS/twc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        },
+        "P3B/.zattrs": {},
+        "P3B/.zgroup": {
+            "zarr_format": 2
+        },
+        "P3B/Bulk/.zattrs": {},
+        "P3B/Bulk/.zgroup": {
+            "zarr_format": 2
+        },
+        "P3B/Bulk/Att_ka/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/Att_ka/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Specific attenaution at Ka-band values derived from in-situ particle size distribution measurements",
+            "long_name": "Specific attenaution at Ka-band",
+            "units": "dB Km-1"
+        },
+        "P3B/Bulk/altitude/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/altitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Altitude at which plane was flying during the cloud penetration",
+            "long_name": "plane altitude",
+            "units": "m"
+        },
+        "P3B/Bulk/d_d/.zarray": {
+            "chunks": [
+                15,
+                2558
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                58,
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/d_d/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter",
+                "time"
+            ],
+            "description": "bin diameter width",
+            "long_name": "bin diameter width",
+            "units": "um"
+        },
+        "P3B/Bulk/dbz_t_ka/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/dbz_t_ka/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "radar reflectivity at Ka-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
+        },
+        "P3B/Bulk/dbz_t_ku/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/dbz_t_ku/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "radar reflectivity at Ku-Band derived from in-situ particle size distribution measurements",
+            "long_name": "radar reflectivity at Ku-Band",
+            "units": "dBZ"
+        },
+        "P3B/Bulk/diameter/.zarray": {
+            "chunks": [
+                58
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                58
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/diameter/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "diameter"
+            ]
+        },
+        "P3B/Bulk/dm/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/dm/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Mass-weighted mean diameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
+        },
+        "P3B/Bulk/dm_rt_dfr_gm_mu_3/.zarray": {
+            "chunks": [
+                4697
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/dm_rt_dfr_gm_mu_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Mass-weighted mean diameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Mass-weighted mean diameter",
+            "units": "mm"
+        },
+        "P3B/Bulk/log10_nw/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/log10_nw/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Normalized intercept parameter derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
+        },
+        "P3B/Bulk/log10nw_dm_gm_mu_3/.zarray": {
+            "chunks": [
+                4697
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/log10nw_dm_gm_mu_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Normalized intercept parameter derived using GPM-Analytical retrieval (mu=3)",
+            "long_name": "Normalized intercept parameter",
+            "units": "log_10(mm-1 mm-3))"
+        },
+        "P3B/Bulk/lwc/.zarray": {
+            "chunks": [
+                1279,
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146,
+                58
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/lwc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ],
+            "description": "liquid water content at each bin size derived from in-situ particle size distribution measurements",
+            "long_name": "liquid water content",
+            "units": "gm-3"
+        },
+        "P3B/Bulk/lwc_cum/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/lwc_cum/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "total liquid water content derived from in-situ particle size distribution measurements",
+            "long_name": "total liquid water content",
+            "units": "gm-3"
+        },
+        "P3B/Bulk/mu/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/mu/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "shape parameter of the Normalized-Gamma size distribution derived from in-situ particle size distribution measurements",
+            "long_name": "shape parameter",
+            "units": "unitless"
+        },
+        "P3B/Bulk/nt/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/nt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Total number concentration derived from in-situ particle size distribution measurements",
+            "long_name": "Total number concentration",
+            "units": "m-3"
+        },
+        "P3B/Bulk/psd/.zarray": {
+            "chunks": [
+                1279,
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146,
+                58
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/psd/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "diameter"
+            ]
+        },
+        "P3B/Bulk/r/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/r/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "rainfall rate derived from in-situ particle size distribution measurements",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
+        },
+        "P3B/Bulk/r_dm_gm_mu_3/.zarray": {
+            "chunks": [
+                4697
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/r_dm_gm_mu_3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "rainfall rates retrieved using GPM-Analytical retrieval (mu=3)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
+        },
+        "P3B/Bulk/r_gpm_operational/.zarray": {
+            "chunks": [
+                4697
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/r_gpm_operational/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "rainfall rates retrieved using GPM-Operational retrieval (R-D relationships)",
+            "long_name": "rainfall rate",
+            "units": "mmhr-1"
+        },
+        "P3B/Bulk/sigma/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/sigma/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Mass spectrum standard deviation derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
+            "long_name": "Mass spectrum standard deviation",
+            "units": "Unitless"
+        },
+        "P3B/Bulk/temp/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/temp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "Ambient temperature in degrees from in-situ measurements",
+            "long_name": "Ambient temperature",
+            "units": "\u00b0C"
+        },
+        "P3B/Bulk/time/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "seconds since 2019-08-24T22:12:20"
+        },
+        "P3B/Bulk/vert_vel/.zarray": {
+            "chunks": [
+                5115
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5146
+            ],
+            "zarr_format": 2
+        },
+        "P3B/Bulk/vert_vel/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "vertical velocity from in-situ measurements",
+            "long_name": "vertical velocity",
+            "units": "ms-1"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

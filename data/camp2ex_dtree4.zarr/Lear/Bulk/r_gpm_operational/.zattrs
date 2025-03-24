@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "description": "rainfall rates retrieved using GPM-Operational retrieval (R-D relationships)",
+    "long_name": "rainfall rate",
+    "units": "mmhr-1"
+}

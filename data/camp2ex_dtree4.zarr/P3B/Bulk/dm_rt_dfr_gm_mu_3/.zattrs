@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "description": "Mass-weighted mean diameter derived using GPM-Analytical retrieval (mu=3)",
+    "long_name": "Mass-weighted mean diameter",
+    "units": "mm"
+}

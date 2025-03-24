@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "description": "shape parameter of the Normalized-Gamma size distribution derived from in-situ particle size distribution measurements",
+    "long_name": "shape parameter",
+    "units": "unitless"
+}
