@@ -8,14 +8,13 @@ Notebooks that allows to replicate results obtained in Ladino et al. (2024) deep
 
 
 ## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
+You can either run the notebook using [Binder](https://mybinder.org/), [Google Colab](https://research.google.com/colaboratory/faq.html), or on your local machine.
 
 ### Running on Binder or Colab
-
 The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/) or [Cola], which enables the execution of a
+[Binder](https://mybinder.org/v2/gh/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/main) or [Colab](https://colab.research.google.com/github/aladinor/Ladino_et_al_2024_DNN_PSD_retrieval/blob/main), which enables the execution of a
 Jupyter Book in the cloud. You’ll be able to execute
-and even change the example programs. You’ll see that the code cells
+and even change the example programs. The data will be **automatically downloaded** when you open a notebook in Colab. You’ll see that the code cells
 have no output at first, until you execute them by pressing
 `Shift` `Enter`. Complete details on how to interact with
 a live Jupyter notebook are described in [Getting Started with
