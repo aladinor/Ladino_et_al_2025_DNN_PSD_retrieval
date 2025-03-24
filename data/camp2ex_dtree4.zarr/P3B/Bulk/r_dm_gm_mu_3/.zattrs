@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "rainfall rates retrieved using GPM-Analytical retrieval (mu=3)",
-    "long_name": "rainfall rate",
-    "units": "mmhr-1"
-}

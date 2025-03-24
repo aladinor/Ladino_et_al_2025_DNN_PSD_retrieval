@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "vertical velocity from in-situ measurements",
-    "long_name": "vertical velocity",
-    "units": "ms-1"
-}

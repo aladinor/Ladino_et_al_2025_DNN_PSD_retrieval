@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "Mass spectrum standard deviation derived from in-situ particle size distribution measurements using Williams et al., (2014) methodology",
-    "long_name": "Mass spectrum standard deviation",
-    "units": "Unitless"
-}

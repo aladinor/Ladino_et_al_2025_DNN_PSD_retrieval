@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time"
-    ],
-    "description": "Altitude at which plane was flying during the cloud penetration",
-    "long_name": "plane altitude",
-    "units": "m"
-}
