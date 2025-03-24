@@ -833,56 +833,6 @@
         "Lear/HVPS/.zgroup": {
             "zarr_format": 2
         },
-        "Lear/HVPS/NevLWC/.zarray": {
-            "chunks": [
-                35681
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                136130
-            ],
-            "zarr_format": 2
-        },
-        "Lear/HVPS/NevLWC/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
-        "Lear/HVPS/NevTWC/.zarray": {
-            "chunks": [
-                35681
-            ],
-            "compressor": {
-                "blocksize": 0,
-                "clevel": 5,
-                "cname": "lz4",
-                "id": "blosc",
-                "shuffle": 1
-            },
-            "dtype": "<f8",
-            "fill_value": "NaN",
-            "filters": null,
-            "order": "C",
-            "shape": [
-                136130
-            ],
-            "zarr_format": 2
-        },
-        "Lear/HVPS/NevTWC/.zattrs": {
-            "_ARRAY_DIMENSIONS": [
-                "time"
-            ]
-        },
         "Lear/HVPS/Temp/.zarray": {
             "chunks": [
                 34033
